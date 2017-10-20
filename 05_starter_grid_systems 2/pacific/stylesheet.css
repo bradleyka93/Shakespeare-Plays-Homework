@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700');
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+  font-family: "Raleway", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  color: #222;
+}
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+h1, h2, h4, a {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 100px;
+  letter-spacing: 3px;
+  padding-top: 250px;
+}
+
+h2 {
+  font-weight: 400px;
+  margin-top: 170px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+a {
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  display: inline-block;
+
+}
+
+/* ----------------------------------------
+Grid System
+------------------------------------------- */
+
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+header {
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+
+h1, h2 {
+  color: white;
+  text-align: center;
+
+}
+
+/* ----------------------------------------
+About
+------------------------------------------- */
+
+
+
+
+/* ----------------------------------------
+Drinks
+------------------------------------------- */
+
+
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */

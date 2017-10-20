@@ -1,0 +1,74 @@
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1 {
+	margin-bottom: 30px;
+}
+
+/* ----------------------------------------
+Form
+------------------------------------------- */
+
+form {
+	max-width: 650px;
+	margin: 0 auto;
+}
+
+
+input, button, select {
+	display: block;
+}
+
+input {
+	width: 100%;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	display: inline-block;
+	width: auto;
+}
+
+label {
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+h1 {
+	text-align: center;
+}
+
+
+/* ----------------------------------------
+Buttons
+------------------------------------------- */
+button {
+	margin-top: 30px;
+}
+
+/* ----------------------------------------
+Placeholder Text
+------------------------------------------- */
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+
+}
